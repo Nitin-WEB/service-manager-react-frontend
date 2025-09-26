@@ -74,7 +74,34 @@ footer {
   text-align: center;
 }
 
+.home-service-card-area{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.home-service-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  height: 180px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.hero-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
 
 
 /* Responsive adjustments */
